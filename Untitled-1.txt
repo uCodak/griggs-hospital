@@ -1,0 +1,105 @@
+<section class="p-4 md:p-0 mb-[10px] md:mb-[30px]">
+  <div
+    class="w-full md:w-[90%] mx-auto flex flex-col-reverse md:flex-row gap-[10px] md:gap-[20px] mt-[30px] md:mt-[50px]"
+  >
+    <!--first div-->
+    <div class="w-full md:w-[50%]" data-aos="zoom-in" data-aos-duration="3800">
+      <h2 class="text-2xl md:text-3xl font-bold mb-[20px]">
+        Prenatal care, delivery and/or post-partum care
+      </h2>
+      <p class="mb-[20px]">
+        Patients enrolled in the program may choose and register for the
+        delivery of their baby at any of the two modern Labor and Delivery
+        Centers in Houston, Texas, USA. The facilities are at:
+      </p>
+      <div>
+        <div class="flex items-center gap-[10px] mb-[10px]">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+              <path d="M12 16a2 2 0 1 0-.001 4.001A2 2 0 0 0 12 16"></path>
+            </svg>
+          </p>
+
+          <p>Memorial Hermann Hospital Southwest, Houston, Texas and</p>
+        </div>
+        <div class="flex items-center gap-[10px] mb-[10px]">
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+              <path d="M12 16a2 2 0 1 0-.001 4.001A2 2 0 0 0 12 16"></path>
+            </svg>
+          </p>
+          <p>HCA West Hospital, Houston, Texas.</p>
+        </div>
+      </div>
+      <p>
+        For more information on the prenatal transfer program, please contact us
+        on +2347064435434. You can directly call the sister practice location in
+        Houston, on +17137731700 or by email, on drkubesieobgyn@gmail.com. In
+        each case, ask for the Prospectus for Foreign Transfer Patient Document
+        and provide us with your email address for the document to be sent to
+        you.
+      </p>
+    </div>
+    <!--second div-->
+    <div class="grid grid-cols-2 gap-4 w-full md:w-[50%] px-[10px] py-[50px]">
+      <div
+        class="bg-[#283746] p-3 md:p-6 border-[2px] border-orange-500 w-full h-fit rounded-[8px]"
+        data-aos="flip-up"
+      >
+        <img
+          src="https://www.griggsspecialisthospital.com.ng/services/prenatal-care.png"
+          alt=""
+          class="w-[30px] mb-[20px]"
+        />
+        <p class="text-white">prenatal care</p>
+      </div>
+      <div
+        class="bg-[#101828] p-3 md:p-6 h-fit rounded-[8px]"
+        data-aos="flip-up"
+      >
+        <img
+          src="https://www.griggsspecialisthospital.com.ng/services/fertility.png"
+          alt=""
+          class="w-[30px] mb-[20px]"
+        />
+        <p class="text-white">fertility</p>
+      </div>
+      <div
+        class="bg-[#101828] p-3 md:p-6 h-fit rounded-[8px]"
+        data-aos="flip-up"
+      >
+        <img
+          src="https://www.griggsspecialisthospital.com.ng/services/cancer-diagnosis.png"
+          alt=""
+          class="w-[30px] mb-[20px]"
+        />
+        <p class="text-white">cancer-diagnosis</p>
+      </div>
+      <div
+        class="bg-[#101828] p-3 md:p-6 h-fit rounded-[8px]"
+        data-aos="flip-up"
+      >
+        <img
+          src="https://www.griggsspecialisthospital.com.ng/services/surgery.png"
+          alt=""
+          class="w-[30px] mb-[20px]"
+        />
+        <p class="text-white">surgery</p>
+      </div>
+    </div>
+  </div>
+</section>
