@@ -1,3 +1,22 @@
+//desktop menu toggle
+const menuToggle = document.querySelector(".menu-toggle");
+const desktopMenu = document.querySelector(".desktop-menu");
+
+menuToggle.addEventListener("click", () => {
+  desktopMenu.classList.toggle("hidden");
+});
+// Close the desktop menu when clicking outside of it
+document.addEventListener("click", (event) => {
+  // Check if the click is outside the menu and the toggle button
+  if (
+    !desktopMenu.contains(event.target) &&
+    !menuToggle.contains(event.target)
+  ) {
+    desktopMenu.classList.add("hidden");
+  }
+});
+
+//mobile menu toggle
 const menuBtn = document.querySelector(".menu-btn");
 const dropdownMenu = document.querySelector(".dropdown-menu");
 
@@ -12,6 +31,16 @@ document.addEventListener("click", (event) => {
     dropdownMenu.classList.add("hidden");
   }
 });
+//cancel button
+// Cancel button functionality
+const cancelButtonEl = document.getElementById("cancel-button");
+const cancelContainerEl = document.getElementById("cancel-container");
+
+if (cancelButtonEl && cancelContainerEl) {
+  cancelButtonEl.addEventListener("click", () => {
+    cancelContainerEl.classList.add("hidden");
+  });
+}
 
 //new
 

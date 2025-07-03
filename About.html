@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Griggs specialist hospital</title>
+  </head>
+  <body>
+    <div class="fixed top-0 bg-[#FFFFFF] w-full z-50">
+      <div
+        class="flex w-[90%] mx-auto justify-between items-center py-2 mb-[10px]"
+      >
+        <div class="">
+          <img src="images/favicon.png" alt="" class="w-[80px]" />
+        </div>
+        <nav class="hidden md:block">
+          <ul class="nav-list flex items-center gap-[8px]">
+            <li class="p-3">
+              <a href="./Meet-cmd.html" class="hover:text-[#F09D31]"
+                >Meet the CMD</a
+              >
+            </li>
+            <li class="p-3">
+              <a href="./About.html" class="hover:text-[#F09D31]">About</a>
+            </li>
+            <li
+              class="menu-toggle flex items-center hover:text-[#F09D31] p-3 relative"
+            >
+              <a href="#">Departments</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                <path
+                  d="m12 15.41 5.71-5.7-1.42-1.42-4.29 4.3-4.29-4.3-1.42 1.42z"
+                ></path>
+              </svg>
+              <!--dropdown menu-->
+              <ul
+                class="desktop-menu absolute hidden top-[50px] right-0 bg-white shadow-lg rounded-lg w-[200px] mt-2"
+              >
+                <li class="p-3 hover:bg-[#F09D31] hover:text-white">
+                  <a href="./fertility.html">Fertility Center</a>
+                </li>
+                <li class="p-3 hover:bg-[#F09D31] hover:text-white">
+                  <a href="./Dialysis.html">Dialysis Center</a>
+                </li>
+                <li class="p-3 hover:bg-[#F09D31] hover:text-white">
+                  <a href="./UltraSound.html">UltraSound Center</a>
+                </li>
+              </ul>
+            </li>
+            <p
+              class="button bg-[#00918F] w-fit px-4 py-2 rounded-[16px] hover:py-3 transition-all duration-300"
+            >
+              <a href="./book-appiontment.html" class="text-white"
+                >Book Appointment</a
+              >
+            </p>
+          </ul>
+        </nav>
+
+        <!--menudropdown-->
+        <div class="md:hidden">
+          <button class="menu-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+              <path d="M4 7H20V9H4z"></path>
+              <path d="M4 11H20V13H4z"></path>
+              <path d="M4 15H20V17H4z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- mobile menu-->
+      <div
+        id="cancel-container"
+        class="dropdown-menu fixed inset-0 z-50 w-full h-screen bg-[#ffffff50] backdrop-blur-xs flex justify-end"
+      >
+        <div class="block w-52 bg-white h-full p-4">
+          <div class="flex justify-end">
+            <button id="cancel-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                data-slot="icon"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <!---->
+          <div class="flex items-start">
+            <ul class="text-black">
+              <li><a href="a"> about</a></li>
+              <li><a href="about">home</a></li>
+              <li><a href="about">journey</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--end-->
+    </div>
+    <div class="image-section w-full md:w-[90%] mx-auto mt-[50px] mb-[40px]">
+      <img src="images/about-landing-image.png" alt="" />
+    </div>
+    <section class="p-4 mb-[30px]">
+      <div class="w-full md:w-[90%] mx-auto">
+        <h1 class="mb-[30px] text-3xl font-bold" data-aos="zoom-in">
+          About Us
+        </h1>
+        <p class="text-[20px] text-[#333333] mb-[30px]" data-aos="zoom-in">
+          GRIGGS SPECIALIST HOSPITAL offers a diverse range of medical and
+          surgical specialties. The hospital is strongly linked to specialists
+          and hospitals in USA through their consultants and practitioners that
+          are currently practicing in the USA. These physicians and their
+          Nigerian counterparts provide a technology based, unique, modern,
+          standard and innovative mode of medical care equal to any in other
+          parts of the world.
+        </p>
+        <p class="border border-black"></p>
+      </div>
+    </section>
+    <section class="p-4 mb-[30px]">
+      <div class="w-full md:w-[90%] mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold" data-aos="zoom-in-down">
+          Our Consultants & Staff
+        </h2>
+        <!-- image div -->
+        <div
+          class="w-full grid grid-cols-1 md:grid-cols-4 gap-[15px] md:gap-[30px]"
+        >
+          <div class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/dr-clement-nwosu.jpeg"
+              alt="Consultants and Staff"
+              class="w-full h-auto mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Dr. Clement Nwosu</p>
+              <p class="mb-[10px]">Head, Nephrology Division</p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MD,FACIM</p>
+            </div>
+          </div>
+          <!---->
+          <div class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/dr-kanene-ubesie.jpeg"
+              alt="Consultants and Staff"
+              class="w-full h-auto mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Dr.Kanene V. Ubesie</p>
+              <p class="mb-[10px]">Burn Surgery consultant</p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MD,FACS</p>
+            </div>
+          </div>
+          <!---->
+          <div class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/dr-peter-grays.jpeg"
+              alt="Consultants and Staff"
+              class="w-full h-auto mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Dr. Peter E. Grays</p>
+              <p class="mb-[10px]">Laparoscopic Surgery Consultant</p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MD,FACS</p>
+            </div>
+          </div>
+          <!---->
+          <div class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/dr-amy-ubesie.jpeg"
+              alt="Consultants and Staff"
+              class="w-full h-auto mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Dr. Amy E. Ubesie</p>
+              <p class="mb-[10px]">Global Health Consultant</p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MPH, DrPH</p>
+            </div>
+          </div>
+          <!---->
+          <div class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/dr-kanayo-ubesie.png"
+              alt="Consultants and Staff"
+              class="w-full h-auto md:h-[300px] mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Dr. Kanayo E. Ubesie</p>
+              <p class="mb-[10px]">Head, Obstetrics & Gynaecology</p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MD, FACOG</p>
+            </div>
+          </div>
+          <!---->
+          <div class="border-2 border-[#35969D]rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/prof-agozie-ubesie.jpg"
+              alt="Consultants and Staff"
+              class="w-full h-auto md:h-[300px] mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Prof. Agozie Ubesie</p>
+              <p class="mb-[10px]">Pediatrics Consultant</p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MBBS, MPH, FMCPaed</p>
+            </div>
+          </div>
+          <!---->
+          <div class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/dr-nonso-ibeneme.jpg"
+              alt="Consultants and Staff"
+              class="w-full h-auto md:h-[300px] mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Dr. McGinger Nonso Ibeneme</p>
+              <p class="mb-[10px]">Pandemic & Infectious Diseases Consultant</p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MBBS</p>
+            </div>
+          </div>
+          <!---->
+          <div class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3]">
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/doctors/dr-emmanuel-nwaka.jpeg"
+              alt="Consultants and Staff"
+              class="w-full h-auto md:h-[300px] mb-[10px]"
+              data-aos="zoom-in"
+            />
+            <div class="p-4">
+              <p class="text-2xl">Dr. Emmanuel Nwaka</p>
+              <p class="mb-[10px]">
+                Associate Medical Director; Internal Medicine
+              </p>
+              <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+              <p>MBBS</p>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div
+          class="border-2 border-[#35969D] rounded-lg bg-[#E3E3E3] w-fit mx-auto mt-[20px]"
+        >
+          <img
+            src="https://www.griggsspecialisthospital.com.ng/doctors/dr-fabian-enemuo.jpeg"
+            alt="Consultants and Staff"
+            class="w-full h-auto md:h-[300px] mb-[10px]"
+            data-aos="zoom-in"
+          />
+          <div class="p-4">
+            <p class="text-2xl">Dr. Fabian Enemuo</p>
+            <p class="mb-[10px]">General Medicine, Emergency Medicine</p>
+            <p class="border border-orange-400 w-[13%] mb-[10px]"></p>
+            <p>MBBS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-[20px] p-4">
+      <div class="w-full md:w-[90%] mx-auto">
+        <h2 class="text-3xl font-bold">Specialities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-[20px] mt-[20px]">
+          <div
+            class="p-6 border border-[#AFAFAF] rounded-[10px]"
+            data-aos="flip-left"
+          >
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/assets/Frame492-BjA3cNV6.png"
+              alt=""
+            />
+            <p class="font-bold text-2xl mb-[10px]">Fertility</p>
+            <p class="text-[#333333] mb-[20px]">
+              Our hospital offers compassionate, expert fertility care to help
+              you start or grow your family.
+            </p>
+            <p>Start your journey today!</p>
+            <button
+              class="flex items-center gap-[10px] mt-[20px] bg-[#00918F] text-white px-[50px] py-4 rounded-[16px] w-full md:w-fit transition-all duration-300 justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                <path
+                  d="M18.07 22h.35c.47-.02.9-.26 1.17-.64l2.14-3.09c.23-.33.32-.74.24-1.14s-.31-.74-.64-.97l-4.64-3.09a1.47 1.47 0 0 0-.83-.25c-.41 0-.81.16-1.1.48l-1.47 1.59c-.69-.43-1.61-1.07-2.36-1.82-.72-.72-1.37-1.64-1.82-2.36l1.59-1.47c.54-.5.64-1.32.23-1.93L7.84 2.67c-.22-.33-.57-.57-.97-.64a1.455 1.455 0 0 0-1.13.24L2.65 4.41c-.39.27-.62.7-.64 1.17-.03.69-.16 6.9 4.68 11.74 4.35 4.35 9.81 4.69 11.38 4.69ZM6.88 10.05c-.16.15-.21.39-.11.59.05.09 1.15 2.24 2.74 3.84 1.6 1.6 3.75 2.7 3.84 2.75.2.1.44.06.59-.11l1.99-2.15 3.86 2.57-1.7 2.46c-1.16 0-6.13-.24-9.99-4.1S4 7.06 4 5.91l2.46-1.7 2.57 3.86-2.15 1.99Z"
+                ></path>
+              </svg>
+              <p><a href="">Call Us</a></p>
+            </button>
+          </div>
+          <!---->
+          <div
+            class="p-6 border border-[#AFAFAF] rounded-[10px]"
+            data-aos="flip-up"
+          >
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/assets/Frame491-BvGwJ6HN.png"
+              alt=""
+            />
+            <p class="font-bold text-2xl mb-[10px]">Burn & Trauma Treatment</p>
+            <p class="text-[#333333] mb-[10px]">
+              We provide specialized care for all degrees of burns, ensuring
+              prompt, effective treatment and long-term recovery support.
+            </p>
+            <p>Book an Appointment Today</p>
+            <div class="w-full md:w-fit">
+              <button
+                class="flex items-center gap-[10px] mt-[10px] bg-[#00918F] text-white px-[50px] py-4 rounded-[16px] w-full md:w-fit transition-all duration-300 justify-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                    d="M18.07 22h.35c.47-.02.9-.26 1.17-.64l2.14-3.09c.23-.33.32-.74.24-1.14s-.31-.74-.64-.97l-4.64-3.09a1.47 1.47 0 0 0-.83-.25c-.41 0-.81.16-1.1.48l-1.47 1.59c-.69-.43-1.61-1.07-2.36-1.82-.72-.72-1.37-1.64-1.82-2.36l1.59-1.47c.54-.5.64-1.32.23-1.93L7.84 2.67c-.22-.33-.57-.57-.97-.64a1.455 1.455 0 0 0-1.13.24L2.65 4.41c-.39.27-.62.7-.64 1.17-.03.69-.16 6.9 4.68 11.74 4.35 4.35 9.81 4.69 11.38 4.69ZM6.88 10.05c-.16.15-.21.39-.11.59.05.09 1.15 2.24 2.74 3.84 1.6 1.6 3.75 2.7 3.84 2.75.2.1.44.06.59-.11l1.99-2.15 3.86 2.57-1.7 2.46c-1.16 0-6.13-.24-9.99-4.1S4 7.06 4 5.91l2.46-1.7 2.57 3.86-2.15 1.99Z"
+                  ></path>
+                </svg>
+                <p><a href="">Call Us</a></p>
+              </button>
+            </div>
+          </div>
+          <!---->
+          <div
+            class="p-6 border border-[#AFAFAF] rounded-[10px]"
+            data-aos="flip-right"
+          >
+            <img
+              src="https://www.griggsspecialisthospital.com.ng/assets/Frame493-DN5o5X32.png"
+              alt=""
+            />
+            <p class="font-bold text-2xl mb-[10px]">Prostate Surgery</p>
+            <p class="text-[#333333] mb-[20px]">
+              State of the art prostate surgery facilities available at our
+              hospital.
+            </p>
+            <p>Book an Appointment Today</p>
+            <div>
+              <button
+                class="flex items-center gap-[10px] mt-[10px] bg-[#00918F] text-white px-[50px] py-4 rounded-[16px] w-full md:w-fit transition-all duration-300 justify-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                    d="M18.07 22h.35c.47-.02.9-.26 1.17-.64l2.14-3.09c.23-.33.32-.74.24-1.14s-.31-.74-.64-.97l-4.64-3.09a1.47 1.47 0 0 0-.83-.25c-.41 0-.81.16-1.1.48l-1.47 1.59c-.69-.43-1.61-1.07-2.36-1.82-.72-.72-1.37-1.64-1.82-2.36l1.59-1.47c.54-.5.64-1.32.23-1.93L7.84 2.67c-.22-.33-.57-.57-.97-.64a1.455 1.455 0 0 0-1.13.24L2.65 4.41c-.39.27-.62.7-.64 1.17-.03.69-.16 6.9 4.68 11.74 4.35 4.35 9.81 4.69 11.38 4.69ZM6.88 10.05c-.16.15-.21.39-.11.59.05.09 1.15 2.24 2.74 3.84 1.6 1.6 3.75 2.7 3.84 2.75.2.1.44.06.59-.11l1.99-2.15 3.86 2.57-1.7 2.46c-1.16 0-6.13-.24-9.99-4.1S4 7.06 4 5.91l2.46-1.7 2.57 3.86-2.15 1.99Z"
+                  ></path>
+                </svg>
+                <p><a href="">Call Us</a></p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <section class="footer-section bg-[#112133] p-4 md:p-[10px]">
+      <div class="w-full md:w-[90%] mx-auto">
+        <div class="mt-[20px] md:mt-[10px] mb-[20px] text-white">
+          <img src="images/favicon.png" alt="" class="w-[150px]" />
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-[20px] mb-[20px]">
+          <!---->
+          <div>
+            <div class="flex items-center gap-[20px] mb-[10px]">
+              <p class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                    d="M16 10c0-2.21-1.79-4-4-4s-4 1.79-4 4 1.79 4 4 4 4-1.79 4-4m-6 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+                  ></path>
+                  <path
+                    d="M11.42 21.81c.17.12.38.19.58.19s.41-.06.58-.19c.3-.22 7.45-5.37 7.42-11.82 0-4.41-3.59-8-8-8s-8 3.59-8 8c-.03 6.44 7.12 11.6 7.42 11.82M12 4c3.31 0 6 2.69 6 6 .02 4.44-4.39 8.43-6 9.74-1.61-1.31-6.02-5.29-6-9.74 0-3.31 2.69-6 6-6"
+                  ></path>
+                </svg>
+              </p>
+              <p class="text-white">
+                KM 43 Lekki-Epe Expressway (Opposite Abijo GRA), Abijo, Lagos,
+                Nigeria.
+              </p>
+            </div>
+            <div class="flex items-center gap-[20px] mb-[10px]">
+              <p class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                    d="M16 10c0-2.21-1.79-4-4-4s-4 1.79-4 4 1.79 4 4 4 4-1.79 4-4m-6 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+                  ></path>
+                  <path
+                    d="M11.42 21.81c.17.12.38.19.58.19s.41-.06.58-.19c.3-.22 7.45-5.37 7.42-11.82 0-4.41-3.59-8-8-8s-8 3.59-8 8c-.03 6.44 7.12 11.6 7.42 11.82M12 4c3.31 0 6 2.69 6 6 .02 4.44-4.39 8.43-6 9.74-1.61-1.31-6.02-5.29-6-9.74 0-3.31 2.69-6 6-6"
+                  ></path>
+                </svg>
+              </p>
+              <p class="text-white">
+                No 2 Da Gwom Du Road Fwavweiw Junction Rayfield Jos, Plateau
+                State.
+              </p>
+            </div>
+            <div class="flex items-center gap-[20px] mb-[10px]">
+              <p class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                    d="M16 10c0-2.21-1.79-4-4-4s-4 1.79-4 4 1.79 4 4 4 4-1.79 4-4m-6 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+                  ></path>
+                  <path
+                    d="M11.42 21.81c.17.12.38.19.58.19s.41-.06.58-.19c.3-.22 7.45-5.37 7.42-11.82 0-4.41-3.59-8-8-8s-8 3.59-8 8c-.03 6.44 7.12 11.6 7.42 11.82M12 4c3.31 0 6 2.69 6 6 .02 4.44-4.39 8.43-6 9.74-1.61-1.31-6.02-5.29-6-9.74 0-3.31 2.69-6 6-6"
+                  ></path>
+                </svg>
+              </p>
+              <p class="text-white">
+                Rukuba Road, by Bright Way Junction Jos, Plateau State
+              </p>
+            </div>
+            <div class="flex items-center gap-[20px] mb-[10px]">
+              <p class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                    d="M16 10c0-2.21-1.79-4-4-4s-4 1.79-4 4 1.79 4 4 4 4-1.79 4-4m-6 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+                  ></path>
+                  <path
+                    d="M11.42 21.81c.17.12.38.19.58.19s.41-.06.58-.19c.3-.22 7.45-5.37 7.42-11.82 0-4.41-3.59-8-8-8s-8 3.59-8 8c-.03 6.44 7.12 11.6 7.42 11.82M12 4c3.31 0 6 2.69 6 6 .02 4.44-4.39 8.43-6 9.74-1.61-1.31-6.02-5.29-6-9.74 0-3.31 2.69-6 6-6"
+                  ></path>
+                </svg>
+              </p>
+              <p class="text-white">
+                Taraba State Legislative Quarters, Jalingo, Taraba State
+              </p>
+            </div>
+          </div>
+          <!---->
+          <div class="text-white">
+            <p>About</p>
+            <p>
+              <a href="" class="hover:text-[#F09D31] mb-[20px]">Meet the CDM</a>
+            </p>
+            <p>
+              <a href="" class="hover:text-[#F09D31] mb-[20px]"
+                >our consultants</a
+              >
+            </p>
+          </div>
+          <!---->
+          <div class="text-white">
+            <p>
+              <a href="" class="hover:text-[#F09D31] mb-[20px]">Quick Links</a>
+            </p>
+            <p>
+              <a href="" class="hover:text-[#F09D31] mb-[20px]"
+                >Fertility Center</a
+              >
+            </p>
+            <p>
+              <a href="" class="hover:text-[#F09D31] mb-[20px]"
+                >Dialysis center</a
+              >
+            </p>
+            <p>
+              <a href="" class="hover:text-[#F09D31] mb-[20px]"
+                >Ultra sound center</a
+              >
+            </p>
+            <p>
+              <a href="" class="hover:text-[#F09D31] mb-[20px]">Meet our CMD</a>
+            </p>
+          </div>
+          <!---->
+          <div class="text-white">
+            <p>Contact Us</p>
+            <div class="flex items-center gap-[10px] mb-[10px] text-white">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path
+                    d="M18.07 22h.35c.47-.02.9-.26 1.17-.64l2.14-3.09c.23-.33.32-.74.24-1.14s-.31-.74-.64-.97l-4.64-3.09a1.47 1.47 0 0 0-.83-.25c-.41 0-.81.16-1.1.48l-1.47 1.59c-.69-.43-1.61-1.07-2.36-1.82-.72-.72-1.37-1.64-1.82-2.36l1.59-1.47c.54-.5.64-1.32.23-1.93L7.84 2.67c-.22-.33-.57-.57-.97-.64a1.455 1.455 0 0 0-1.13.24L2.65 4.41c-.39.27-.62.7-.64 1.17-.03.69-.16 6.9 4.68 11.74 4.35 4.35 9.81 4.69 11.38 4.69ZM6.88 10.05c-.16.15-.21.39-.11.59.05.09 1.15 2.24 2.74 3.84 1.6 1.6 3.75 2.7 3.84 2.75.2.1.44.06.59-.11l1.99-2.15 3.86 2.57-1.7 2.46c-1.16 0-6.13-.24-9.99-4.1S4 7.06 4 5.91l2.46-1.7 2.57 3.86-2.15 1.99Z"
+                  ></path>
+                </svg>
+              </p>
+              <p>07064345344 (Lagos)</p>
+            </div>
+            <p>griggsspecialisthospital@gmail.com</p>
+            <p>griggshospital@gmail.com</p>
+          </div>
+        </div>
+        <!---->
+        <div>
+          <div class="flex items-center justify-center gap-[10px] mb-[10px]">
+            <p>
+              <img
+                src="images/download-removebg-preview.png"
+                alt=""
+                class="w-[30px]"
+              />
+            </p>
+            <p>
+              <img
+                src="images/download__1_-removebg-preview.png"
+                alt=""
+                class="w-[30px]"
+              />
+            </p>
+          </div>
+          <p class="text-white text-center">
+            &copy2025 griggsspecialisthospital, All rights Reversed.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
